@@ -75,7 +75,7 @@
                           success: function(data)
                           {
                             if(data.result == true){
-                                window.location.href = "<?php echo base_url();?>index.php/mapos";
+                                window.location.href = "<?php echo base_url();?>";
                             }
                             else{
                                 $('#call-modal').trigger('click');
